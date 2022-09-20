@@ -53,5 +53,6 @@ public class Main {
         {
             System.out.print("음수");
         }
+        System.out.println("연결확인");
     }
 }
