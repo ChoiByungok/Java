@@ -51,7 +51,7 @@ public class Main {
         }
         else
         {
-            System.out.print("음수");
+            System.out.print("음수\n");
         }
         System.out.println("연결확인");
         System.out.println("연결확인2");
