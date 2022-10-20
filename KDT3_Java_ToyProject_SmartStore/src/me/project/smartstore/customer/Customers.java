@@ -7,7 +7,9 @@ import me.project.smartstore.group.Parameter;
 import java.util.Arrays;
 import java.util.Objects;
 
-public class Customers {
+import static me.project.smartstore.menu.Menu.*;
+
+public class Customers{
 
 
     private Customer[] customers;
@@ -22,13 +24,16 @@ public class Customers {
         customers = new Customer[size];
     }
 
-    public Customers(Customer[] customers, int size) {
+    public Customers(Customer[] customers) {
         this.customers = customers;
-        this.size = size;
     }
 
     public Customer[] getCustomers() {
         return customers;
+    }
+    public Customer[] cutNull(int size){
+        Customer[] result = Arrays.copyOf(customers,size);
+        return result;
     }
 
 
@@ -71,41 +76,48 @@ public class Customers {
         }
         index--;
     }
-    public Customers[] groupByCustomer(Group g , Group v , Group vv){
-        Customers oC = new Customers(customers.length);
-        Customers gC = new Customers(customers.length);
-        Customers vC = new Customers(customers.length);
-        Customers vvC = new Customers(customers.length);
+    public Customers[] groupByCustomer(){
 
+        int index = size();
+        Customers oC = new Customers(index);
+        Customers gC = new Customers(index);
+        Customers vC = new Customers(index);
+        Customers vvC = new Customers(index);
         int oIDx = 0;
-        int gIdx = 0;
-        int vIdx = 0;
-        int vvIdx = 0;
-        if(g == null && v == null && vv == null){
-            for(int i = 0 ; i < customers.length ; i++){
-                oC.getCustomers()[i] = getCustomers()[i];
-                oIDx++;
-            }
-        }else{
-            for(int i = 0 ; i < customers.length ; i++){
-                if(getCustomers()[i].getSpentTime() < g.getParameter().getMinimumSpentTime() && getCustomers()[i].getTotalPay() < g.getParameter().getMinimumTotalPay()){
-                    oC.getCustomers()[i] = getCustomers()[i];
+        int gIDx = 0;
+        int vIDx = 0;
+        int vvIDx = 0;
+        if(g.getParameter().getMinimumSpentTime() !=0 && g.getParameter().getMinimumTotalPay() !=0 &&
+          v.getParameter().getMinimumSpentTime() !=0 && v.getParameter().getMinimumTotalPay() != 0 &&
+          vv.getParameter().getMinimumSpentTime() !=0 && vv.getParameter().getMinimumTotalPay() !=0){
+            for(int i = 0; i < index; i++){
+                if (customers[i].getSpentTime() >= vv.getParameter().getMinimumSpentTime() && customers[i].getTotalPay() >= vv.getParameter().getMinimumTotalPay()) {
+                    vvC.getCustomers()[vvIDx] = customers[i];
+                    vvIDx++;
+                } else if (customers[i].getSpentTime() >= v.getParameter().getMinimumSpentTime() && customers[i].getTotalPay() >= v.getParameter().getMinimumTotalPay()) {
+                    vC.getCustomers()[vIDx] = customers[i];
+                    vIDx++;
+                } else if (customers[i].getSpentTime() >= g.getParameter().getMinimumSpentTime() && customers[i].getTotalPay() >= g.getParameter().getMinimumTotalPay()) {
+                    gC.getCustomers()[gIDx] = customers[i];
+                    gIDx++;
+                } else {
+                    oC.getCustomers()[oIDx] = customers[i];
                     oIDx++;
-                } else if (getCustomers()[i].getSpentTime() < v.getParameter().getMinimumSpentTime() && getCustomers()[i].getTotalPay() < v.getParameter().getMinimumTotalPay()) {
-                    gC.getCustomers()[i] = getCustomers()[i];
-                    gIdx++;
-                }else if(getCustomers()[i].getSpentTime() < vv.getParameter().getMinimumSpentTime() && getCustomers()[i].getTotalPay() < vv.getParameter().getMinimumTotalPay()){
-                    vC.getCustomers()[i] = getCustomers()[i];
-                    vIdx++;
-                }else{
-                    vvC.getCustomers()[i] = getCustomers()[i];
-                    vvIdx++;
                 }
             }
         }
+        else{
+            for(int i = 0; i < index; i++){
+                oC.getCustomers()[oIDx] = customers[i];
+                oIDx++;
+            }
+        }
 
-
-        return new Customers[] {oC,gC,vC,vvC};
+        return new Customers[] {
+                new Customers(oC.cutNull(oIDx)),
+                new Customers(gC.cutNull(gIDx)),
+                new Customers(vC.cutNull(vIDx)),
+                new Customers(vvC.cutNull(vvIDx))};
     }
     public boolean isEmpty(){
         return index == 0;
@@ -132,4 +144,5 @@ public class Customers {
                 ", size=" + size +
                 '}';
     }
+
 }

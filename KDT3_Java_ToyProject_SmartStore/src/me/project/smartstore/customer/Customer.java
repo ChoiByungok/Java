@@ -2,7 +2,7 @@ package me.project.smartstore.customer;
 
 import java.util.Objects;
 
-public class Customer {
+public class Customer implements Comparable<Customer>{
 
     private static int serialNum = 1000;
     private int num;
@@ -73,5 +73,10 @@ public class Customer {
                 ", 소비시간=" + spentTime +
                 ", 소비금액=" + totalPay +
                 '}';
+    }
+
+    @Override
+    public int compareTo(Customer o) {
+        return 0;
     }
 }

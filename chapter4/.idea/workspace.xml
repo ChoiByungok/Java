@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46a3b3e1-cdee-4d0e-b46e-30403a40cff1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch03/StringTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch04/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch04/ClassTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KDT3_Java_Assignment4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice01/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice01/StudentDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice02/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice02/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice03/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice03/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice03/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice03/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice04/answersheet" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice04/answersheet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice05/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/out/production/KDT3_Java_OOP_Assignment6/me/day14/practice/practice05/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice01/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice01/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice02/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice02/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice03/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice03/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice03/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice03/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice04/answersheet" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice04/answersheet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice05/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_OOP_Assignment6/src/me/day14/practice/practice05/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/out/production/KDT3_Java_ToyProject_SmartStore/me/project/smartstore/customer/Customers.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/out/production/KDT3_Java_ToyProject_SmartStore/me/project/smartstore/customer/Customers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/out/production/KDT3_Java_ToyProject_SmartStore/me/project/smartstore/menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/out/production/KDT3_Java_ToyProject_SmartStore/me/project/smartstore/menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/customer/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/customer/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/customer/Customers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/customer/Customers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../KDT3_Java_ToyProject_SmartStore/src/me/project/smartstore/menu/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +34,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,7 +50,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/quddh/IdeaProjects/chapter4"
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/quddh/IdeaProjects/Java/chapter4"
   }
 }]]></component>
   <component name="RunManager" selected="Application.ClassTest">
@@ -129,8 +138,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664518531458</updated>
+      <workItem from="1666255788884" duration="12000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

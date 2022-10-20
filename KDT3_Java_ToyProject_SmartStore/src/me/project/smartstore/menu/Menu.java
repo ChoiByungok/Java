@@ -6,16 +6,12 @@ import me.project.smartstore.customer.Customers;
 import me.project.smartstore.group.Group;
 import me.project.smartstore.group.Parameter;
 
-
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Menu {
-    Group g;
-    Group v;
-    Group vv;
-   // ArrayList<Customer> customers = new ArrayList<>();
+     public static Group g;
+     public static Group v;
+     public static Group vv;
     ClassifiedCustomers classifiedCustomers = new ClassifiedCustomers();
 
     Customers customers = new Customers();
@@ -532,51 +528,57 @@ public class Menu {
     }
     public void summaryMenu(){
 
-        System.out.println("summary 구현 못했습니다.");
-        mainMenu();
-//        System.out.println("==============================\n" +
-//                " 1. 파라미터별 고객 그룹\n" +
-//                " 2. 파라미터별 고객 그룹 이름순으로 정렬\n" +
-//                        " 3. 파라미터별 고객 그룹 소비시간으로 정렬\n" +
-//                        " 4. 파라미터별 고객 그룹 소비금액으로 정렬\n" +
-//                        " 5. 뒤로가기\n" +
-//                        "==============================");
-//                CommonMessage.selectNumber();
-//                String input;
-//                input = sc.next();
-//                switch (input){
-//                    case "1" :
-//                        summary();
-//                        break;
-//                    case "2" :
-//                        sortedByNameSummary();
-//                        break;
-//                    case "3" :
-//                        sortedBySpentTimeSummary();
-//                        break;
-//                    case "4" :
-//                        sortedByTotalPaySummary();
-//                        break;
-//                    case "5" :
-//                        mainMenu();
-//                        break;
-//                    default:
-//                CommonMessage.invalidType();
-//                customerControlMenu();
-//        }
+//        System.out.println("summary 구현 못했습니다.");
+//        mainMenu();
+        System.out.println("==============================\n" +
+                " 1. 파라미터별 고객 그룹\n" +
+                " 2. 파라미터별 고객 그룹 이름순으로 정렬\n" +
+                        " 3. 파라미터별 고객 그룹 소비시간으로 정렬\n" +
+                        " 4. 파라미터별 고객 그룹 소비금액으로 정렬\n" +
+                        " 5. 뒤로가기\n" +
+                        "==============================");
+                CommonMessage.selectNumber();
+                String input;
+                input = sc.next();
+                switch (input){
+                    case "1" :
+                        summary();
+                        break;
+                    case "2" :
+                        sortedByNameSummary();
+                        break;
+                    case "3" :
+                        sortedBySpentTimeSummary();
+                        break;
+                    case "4" :
+                        sortedByTotalPaySummary();
+                        break;
+                    case "5" :
+                        mainMenu();
+                        break;
+                    default:
+                CommonMessage.invalidType();
+                customerControlMenu();
+        }
     }
     public void summary(){
-
-        classifiedCustomers.setClassifiedCustomers(customers.groupByCustomer(g,v,vv));
+        classifiedCustomers.setClassifiedCustomers(customers.groupByCustomer());
         System.out.println(classifiedCustomers);
+        summaryMenu();
     }
     public void sortedByNameSummary(){
-
+        classifiedCustomers.setClassifiedCustomers(customers.groupByCustomer());
+        System.out.println(classifiedCustomers);
+        summaryMenu();
     }
     public void sortedBySpentTimeSummary(){
-
+        classifiedCustomers.setClassifiedCustomers(customers.groupByCustomer());
+        System.out.println(classifiedCustomers);
+        summaryMenu();
     }
     public void sortedByTotalPaySummary(){
-
+        classifiedCustomers.setClassifiedCustomers(customers.groupByCustomer());
+        System.out.println(classifiedCustomers);
+        summaryMenu();
     }
 }
