@@ -1,42 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="122c086c-e3c1-4413-bdf9-a6608b70b2d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reader.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/ArrayIndexException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/AutoCloseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/AutoCloseableObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/FileExceptionHandling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch08/ThrowsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09/PasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch09/PasswordTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/LoggerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/MyLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch11/StudentNameFormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch13/SystemINTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/FileInputByteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/FileInputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/FileInputTEST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/FileOutputStreamTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch14/FileOutputStreamTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch15/FileReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch15/FileWriterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch16/DataStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch16/FileCopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch16/InputStreamReaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ch17/SerializationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="122c086c-e3c1-4413-bdf9-a6608b70b2d9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +15,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -61,14 +26,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/quddh/IdeaProjects/test&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/quddh/IdeaProjects/Java/chapter6"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ArrayIndexException">
     <configuration name="ArrayIndexException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ch08.ArrayIndexException" />
